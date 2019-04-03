@@ -3,5 +3,7 @@ import y from './two'
 import './style.scss'
 
 x()
-console.log('index.js')
+let a =1
+console.log('let a =1')
+console.log(a)
 y()

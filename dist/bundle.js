@@ -135,11 +135,11 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _one = __webpack_require__(/*! ./one */ \"./src/one.js\");\n\nvar _one2 = _interopRequireDefault(_one);\n\nvar _two = __webpack_require__(/*! ./two */ \"./src/two.js\");\n\nvar _two2 = _interopRequireDefault(_two);\n\n__webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n(0, _one2.default)();\nconsole.log('index.js');\n(0, _two2.default)();\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _one__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./one */ \"./src/one.js\");\n/* harmony import */ var _two__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./two */ \"./src/two.js\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./style.scss */ \"./src/style.scss\");\n/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_scss__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\nObject(_one__WEBPACK_IMPORTED_MODULE_0__[\"default\"])()\nlet a =1\nconsole.log('let a =1')\nconsole.log(a)\nObject(_two__WEBPACK_IMPORTED_MODULE_1__[\"default\"])()\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
@@ -147,11 +147,11 @@ eval("\n\nvar _one = __webpack_require__(/*! ./one */ \"./src/one.js\");\n\nvar 
 /*!********************!*\
   !*** ./src/one.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nfunction x() {\n  console.log('one');\n}\n\nexports.default = x;\n\n//# sourceURL=webpack:///./src/one.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction x(){\n    console.log('one')\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (x);\n\n\n//# sourceURL=webpack:///./src/one.js?");
 
 /***/ }),
 
@@ -170,11 +170,11 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/c
 /*!********************!*\
   !*** ./src/two.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nfunction y() {\n  console.log('two');\n}\n\nexports.default = y;\n\n//# sourceURL=webpack:///./src/two.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction y(){\n    console.log('two')\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (y);\n\n//# sourceURL=webpack:///./src/two.js?");
 
 /***/ })
 

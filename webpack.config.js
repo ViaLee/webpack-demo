@@ -10,7 +10,8 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: __dirname + 'node_modules',
+        include: __dirname + 'src',        
         use: {
           loader: 'babel-loader',
           options: {
